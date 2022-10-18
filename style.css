@@ -2,6 +2,7 @@ h2:hover {
     color: red;
 }
 
+h2[class=subtitle]
 .subtitle {
     color: blue;
 }
@@ -42,4 +43,12 @@ ul >li {
 
 ul li {
     color: gold;
+}
+
+img[src^="../img/"] {
+    border: 10px solid black
+}
+
+h2[class~=article-subtitle] {
+    background: green;
 }
