@@ -1,5 +1,5 @@
 body {
-    background: rgb(204,229,255);
+    background: url("https://www.national-geographic.pl/media/cache/slider_big/uploads/media/default/0014/29/wodospady-w-polsce-12-najpiekniejszych-polskich-wodospadow-na-zdjeciu-wodospad-szklarki-fot-getty-images-krzysztof-poleszak.jpeg");
 }
 
 #title {
@@ -9,3 +9,4 @@ body {
 .subtitle {
     color: rgb(200,148,30);
 }
+
