@@ -1,5 +1,7 @@
 body {
     background: linear-gradient(to bottom, rgba(204, 229, 255), rgba(204, 229, 255, 0.4));
+    text-transform: uppercase;
+    text-align: center;
 }
 
 #title {
@@ -17,3 +19,6 @@ body {
 
 }
 
+.link {
+    text-decoration: underline;
+}
