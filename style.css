@@ -47,7 +47,11 @@ body {
 .container {
     background-color: rgb(250, 250, 250);
     margin: 10px;
+
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
 }
 
 .container-item {
