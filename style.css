@@ -20,7 +20,7 @@ body {
     height: 400px;
     width: 70vw;
     background: radial-gradient(circle, red 20%, blue 40%, green 25%);
-
+    border: 10px double rgb(28, 28, 79);
 }
 
 .link {
@@ -30,3 +30,8 @@ body {
 .italics {
     font-style: italic;
 } 
+
+#about-us-image {
+    height: 300px;
+    width: 60%;
+}
