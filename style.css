@@ -109,8 +109,18 @@ input, textarea {
     background: rgb(147, 187, 255);
     padding: 20px 30px;
 }
+
 #about-me {
-    animation-name: red-to-black;
+   /* animation-name: red-to-black;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: 2;
+    animation-direction: alternate-reverse; */
+
+    -webkit-animation: red-to-black 4s linear 0s 2 alternate-reverse;
+    -moz-animation: red-to-black 4s linear 0s 2 alternate-reverse;
+    -ms-animation: red-to-black 4s linear 0s 2 alternate-reverse;
+    -o-animation: red-to-black 4s linear 0s 2 alternate-reverse;
 }
 
 @keyframes red-to-black {
@@ -118,10 +128,12 @@ input, textarea {
         background: red; 
         transform: translate(0px, 0px);
     }
+
     50% {
         background: yellow; 
         transform: translate(10px, 10px);
     }
+
     100% {
         background: black; 
         transform: translate(20px, 20px);
